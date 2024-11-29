@@ -1,0 +1,131 @@
+body {
+  /* styles.css */
+
+/* تنسيق الصفحة بشكل عام */
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img.jpg'); /* استبدل هذا المسار بمسار الصورة الخاصة بك */
+  background-size: cover; /* تغطي الصورة كامل الشاشة */
+  background-position: center; /* ضبط الصورة في منتصف الصفحة */
+  background-repeat: no-repeat; /* عدم تكرار الصورة */
+
+
+/* بقية التنسيقات تبقى كما هي ... */
+
+/* رأس الصفحة */
+.header {
+  background-color: rgba(0, 123, 255, 0.7); /* الخلفية الشفافة لرأس الصفحة */
+  color: white;
+  padding: 20px 0;
+}
+
+.header .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* باقي التنسيقات ... */
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background: #8e3a9d;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .catalog {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  .item h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .item button {
+    background: #10c074;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .item button:hover {
+    background: #b41c7e;
+  }
+  
+  .footer {
+    background: #964747;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
